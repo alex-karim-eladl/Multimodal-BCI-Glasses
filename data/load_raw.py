@@ -22,17 +22,20 @@ from config import *
 
 log = logging.getLogger(__name__)
 
-URL = 'https://drive.google.com/file/d/1NLdr5lMesZa4UrXiyrlj8zN49hWFF0Z3/view?usp=sharing'
+ZIP_URL = 'https://drive.google.com/file/d/1NLdr5lMesZa4UrXiyrlj8zN49hWFF0Z3/view?usp=sharing'
+URL = 'https://drive.google.com/drive/folders/1ee_KSqpbA7DAweoPLV8uPbNSDMRWD8vG?usp=sharing'
 
 def download_raw():
-    log.info('downloading raw data...')
     # dst = DATA_DIR / 'raw'
-    dst = './data/raw.zip'
-    gdown.download(URL, dst, quiet=False, fuzzy=True)
+    # gdown.download(ZIP_URL, dst, quiet=False, fuzzy=True)
+    
+    log.info('downloading raw data...')
+    gdown.download_folder(URL, RAW_DIR, quiet=True)
+    
+    # log.info(f'unzipping {dst}')
+    # with ZipFile(dst, 'r') as zip:
+    #     zip.extractall(DATA_DIR)
 
-    log.info(f'unzipping {dst}')
-    with ZipFile(dst, 'r') as zip:
-        zip.extractall(DATA_DIR)
 
 
 def load_attentivu(file: Path) -> pd.DataFrame:
