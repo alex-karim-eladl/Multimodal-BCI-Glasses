@@ -29,13 +29,12 @@ def download_raw():
     # dst = DATA_DIR / 'raw'
     # gdown.download(ZIP_URL, dst, quiet=False, fuzzy=True)
     
-    log.info('downloading raw data...')
-    gdown.download_folder(URL, RAW_DIR, quiet=True)
+    print('downloading raw data...')
+    gdown.download_folder(URL, output=str(RAW_DIR), quiet=True)
     
     # log.info(f'unzipping {dst}')
     # with ZipFile(dst, 'r') as zip:
     #     zip.extractall(DATA_DIR)
-
 
 
 def load_attentivu(file: Path) -> pd.DataFrame:
