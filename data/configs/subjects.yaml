@@ -1,0 +1,70 @@
+
+subjects:
+  0: claire
+  1: daniel
+  2: david
+  3: harry
+  4: isabelle
+  5: khiem
+  6: laila
+  7: michelle
+  8: nader
+  9: natasha
+  10: nina
+  11: sam
+  12: samuel
+  13: sven
+  14: tina
+  15: zoey
+
+# subjects:
+#   claire:
+#     age: 22
+#     id: 1
+#   daniel:
+#     age: 22
+#     id: 2
+#   david:
+#     age: 24
+#     id: 3
+#   harry:
+#     age: 21
+#     id: 3
+#   isabelle:
+#     age: 22
+#     id: 2
+#   khiem:
+#     age: 25
+#     id: 2
+#   laila:
+#     age: 20
+#     id: 2
+#   michelle:
+#     age: 22
+#     id: 2
+#   nader:
+#     age: 21
+#     id: 2
+#   natasha:
+#     age: 22
+#     id: 2
+#   nina:
+#     age: 24
+#     id: 2
+#   sam:
+#     age: 28
+#     id: 2
+#   samuel:
+#     age: 22
+#     id: 2
+#   sven:
+#     age: 24
+#     id: 2
+#   tina:
+#     age: 21
+#     id: 2
+#   zoey:
+#     age: 19
+#     id: 2
+
+

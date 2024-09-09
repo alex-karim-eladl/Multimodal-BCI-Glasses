@@ -1,0 +1,47 @@
+[
+    {
+        "type": "subscribe",
+        "name": "dat",
+        "uuid": "ab77cdcd-b55e-4362-8ded-8aa9b7395c9c",
+        "characteristics": [
+            {
+                "uuid": "4357d70d-fced-4941-ad61-3e2afcde52ab",
+                "name": "exg0",
+                "cols": ["CH1", "CH2", "CH3", "CH4"]
+            },
+            {
+                "uuid": "4357d70d-fced-4941-ad61-3e2afcde52ac",
+                "name": "imu",
+                "cols": ["GYROX", "GYROY", "GYROZ", "ACCX", "ACCY", "ACCZ"]
+            },
+            {
+                "uuid": "4357d70d-fced-4941-ad61-3e2afcde52ae",
+                "name": "exg1",
+                "cols": ["CH5", "CH6", "CH7", "CH8"]
+            }
+        ]
+    },
+    {
+        "type": "read",
+        "name": "config",
+        "uuid": "5df8d838-11f3-428b-bbec-eced24adabd4",
+        "characteristics": [
+            {
+                "name": "exg_mask",
+                "uuid": "b8c8c232-f71a-48a3-9342-960c2962d0c1"
+            },
+            {
+                "name": "imu_mask",
+                "uuid": "b8c8c232-f71a-48a3-9342-960c2962d0c4"
+            },
+            {
+                "name": "exg_fs",
+                "uuid": "b8c8c232-f71a-48a3-9342-960c2962d0c3"
+            },
+            {
+                "name": "imu_fs",
+                "uuid": "b8c8c232-f71a-48a3-9342-960c2962d0c5"
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+parts:
+  regular_visual:
+    part_len: 560.0
+    block_len: 28.0
+    stim_len: 4.0
+  regular_auditory:
+    part_len: 560.0
+    block_len: 28.0
+    stim_len: 7.0
+  regular_imagined:
+    part_len: 560.0
+    block_len: 28.0
+    stim_len: 28.0
+  random_visual:
+    part_len: 840.0
+    block_len: 28.0
+    stim_len: 4.0
+  random_auditory:
+    part_len: 840.0
+    block_len: 28.0
+    stim_len: 7.0
+  random_imagined:
+    part_len: 560.0
+    block_len: 28.0
+    stim_len: 28.0
+
+
+# block_len: 28.0
+# nblocks: 10
+# block_types: 
+#   - math
+#   - rest
+
+# timings:
+#   regular: 560.0
+#   random: 840.0
+# stimuli:
+#   visual: 4.0
+#   auditory: 7.0
+#   imagined: 28.0
+
+

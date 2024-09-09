@@ -1,0 +1,58 @@
+#* formatting
+pre-commit
+typeguard
+ruff
+
+#* jupyter notebooks
+ipython
+ipykernel
+ipywidgets
+jupyter
+
+#* data 
+gdown
+# dask[complete] # numba # xarray # scipy
+tqdm
+
+#* config
+# omegaconf # hydra-core
+PyYAML
+
+#* ML/DL
+torch
+pytorch-lightning
+torchtyping
+torchsummary
+# torchviz
+wandb
+skorch
+scikit-optimize
+
+
+#* brain decoding packages
+mne
+mne-nirs
+mne-features
+autoreject
+braindecode
+# pyriemann
+brainflow
+# nilearn
+MOABB
+# nippy
+snirf
+
+nptyping
+
+# # signal processing
+PyWavelets
+spkit # functions: https://github.com/Nikeshbajaj/spkit
+# tsfresh
+tslearn
+# pyentrp
+# antropy
+# nolds # nonlinear measures for dynamical systems based on 1D time series 
+# # (sample entropy, lyapunov exponent, correlation dimension, hurst exponent, detrended fluctuation analysis)
+
+#* visualization
+plotly

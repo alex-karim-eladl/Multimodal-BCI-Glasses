@@ -1,0 +1,33 @@
+data_dir: ../data
+raw_dir: ${data_dir}/raw
+proc_dir: ${data_dir}/proc
+# snirf_dir: ${data_dir}/snirf
+
+dtypes:
+  eeg:
+    fs: 250.0
+    channels: [CH1, CH2, CH3]
+    path: attentivu/exg.csv
+  imu:
+    fs: 125.0
+    channels: [ACC_X, ACC_Y, ACC_Z, GYR_X, GYR_Y, GYR_Z]
+    path: attentivu/imu.csv
+  nirs:
+    fs: 10.0
+    channels: [740nm10mm, 740nm27mm, 850nm10mm, 850nm27mm, 940nm10mm, 940nm27mm] 
+    optodes: ['10', '27']
+    wavelengths: ['740', '850', '940']
+    devices:
+      f7:
+        path: blueberry/f7.csv
+        source_pos: [80, 60, 0]
+        detector_pos: [[80, 50, 0], [80, 33, 0]]
+      f8:
+        path: blueberry/f8.csv
+        source_pos: [-80, 60, 0]
+        detector_pos: [[-80, 50, 0], [-80, 33, 0]]
+      fp:
+        path: blueberry/fp.csv
+        source_pos: [-10, 100, 0]
+        detector_pos: [[0, 100, 0], [17, 100, 0]]
+

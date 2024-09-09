@@ -1,0 +1,17 @@
+
+# connection
+bitstring==4.0.1
+bleak==0.20.1
+chime
+
+
+click>=8.0.3
+# Utils
+gTTS
+pyobjc-core==8.1
+pyobjc-framework-Cocoa==8.1
+pyobjc-framework-CoreBluetooth==8.1
+pyobjc-framework-libdispatch==8.1
+tqdm
+# Blueberry==0.2
+# Connection==2021.7.20
